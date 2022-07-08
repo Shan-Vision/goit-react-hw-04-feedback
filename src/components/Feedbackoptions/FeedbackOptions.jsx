@@ -1,11 +1,9 @@
 import PropTypes from 'prop-types';
-import { Section } from 'components/Section';
 import { Container, Button } from './FeedbackOptions.styled';
 
 const FeedbackOptions = ({ options, onLeaveFeedback }) => {
   return (
-    <>
-      <Section title="Please leave your feedback" />
+    <>      
       <Container>
         {options.map(option => {
           return (
